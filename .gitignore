@@ -1,0 +1,17 @@
+# Terraform files to ignore
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+crash.log
+.terraformrc
+terraform.rc
+
+# Local configuration files
+.vscode/
+.idea/
+*.swp
+*.bak
